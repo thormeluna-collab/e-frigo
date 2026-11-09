@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecetaPro - Tu App de Recetas Inteligente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#10b981',
+              secondary: '#3b82f6',
+              accent: '#f59e0b',
+              danger: '#ef4444',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body { font-family: 'Segoe UI', system-ui, sans-serif; }
+      .scrollbar-hide::-webkit-scrollbar { display: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
